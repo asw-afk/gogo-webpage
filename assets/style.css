@@ -1,0 +1,34 @@
+.arrow-container {
+    display: flex;
+    align-items: center;
+ }
+ .left-arrow,
+ .right-arrow,
+ .up-arrow,
+ .down-arrow {
+    width: 0;
+    height: 0;
+    margin: 5px;
+ }
+ .left-arrow,
+ .right-arrow {
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+ }
+ .up-arrow,
+ .down-arrow {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+ }
+ .right-arrow {
+    border-left: 25px solid #F10C0C;
+ }
+ .left-arrow {
+    border-right: 25px solid #F10C0C;
+ }
+ .up-arrow {
+    border-bottom: 25px solid #F10C0C;
+ }
+ .down-arrow {
+    border-top: 25px solid #F10C0C;
+ }
