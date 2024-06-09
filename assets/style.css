@@ -1,3 +1,22 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    width:100%;
+    height: 10vh;
+    background-color: #09030f;
+}
+
+header button {
+    color: azure;
+    border-color: transparent;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #arrow-container {
     display: flex;
     align-items: center;
@@ -15,10 +34,10 @@
  }
 
  #right-arrow {
-    border-left: 25px solid #F10C0C;
+    border-left: 25px solid #2c0c83;
  }
  #left-arrow {
-    border-right: 25px solid #F10C0C;
+    border-right: 25px solid #2c0c83;
  }
 
 
@@ -81,4 +100,19 @@
 
 .carousel__button--right {
     right: -40px;
+}
+
+.mascot__container {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.mascot {
+    background-color: #09030f;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 80px;
+    margin: 70px;
 }
